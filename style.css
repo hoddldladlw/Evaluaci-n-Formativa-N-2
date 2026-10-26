@@ -37,7 +37,7 @@ body {
    background-color: #ffffff;
    margin-top: 20px;
    border-radius: 8px;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 .seccion-sobre-mi h2 {
     color: #2c3e50;
@@ -47,4 +47,32 @@ body {
     color: #555;
     font-size: 16px;
     line-height: 1.6;
+}
+.seccion-tecnologias {
+    padding: 5opx 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.seccion-tecnologias h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.contenedor-chips {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.chip {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
