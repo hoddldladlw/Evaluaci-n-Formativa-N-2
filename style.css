@@ -76,3 +76,51 @@ body {
     font-size: 14px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.seccion-proyectos {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.seccion-proyectos h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.card h3 {
+    color: #2c3e50;
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+}
+.card p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
