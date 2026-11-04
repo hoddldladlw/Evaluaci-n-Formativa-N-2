@@ -311,13 +311,117 @@ footer {
 .chip:hover {
     transform: scale(1.1);
 }
-/* Estilo para mejorar el texto de presentación */
+
 header p, .encabezado p {
     max-width: 600px;
-    margin: 10px auto 0 auto; /* Centra el texto y lo separa de tu nombre */
+    margin: 10px auto 0 auto; 
     text-align: center;
     font-size: 16px;
-    color: #555555; /* Un gris un poco más suave y elegante */
-    line-height: 1.5; /* Separa un poco las líneas para que sea más fácil de leer */
+    color: #555555; 
+    line-height: 1.5; 
     font-family: Arial, sans-serif;
+}
+.proyecto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.proyecto-card a {
+    margin-top: auto; 
+    display: inline-block;
+}
+body.oscuro {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.oscuro section {
+    background-color: #1e1e1e;
+}
+#btn-tema {
+    background-color: #3b82f6; 
+    color: #ffffff;            
+    border: none;             
+    padding: 8px 16px;         
+    border-radius: 20px;       
+    font-weight: bold;         
+    cursor: pointer;           
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn-tema:hover {
+    background-color: #2563eb; 
+    transform: scale(1.05);    
+}
+#btn-tema {
+    margin-left: auto;
+    margin-right: 100px; /* Esto lo separa un poco del borde derecho de la pantalla */
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn-tema:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+body.oscuro {
+    background-color: #121212 !important;
+    color: #f0f0f0 !important;
+}
+
+body.oscuro section,
+body.oscuro header,
+body.oscuro .proyecto-card,
+body.oscuro table,
+body.oscuro th,
+body.oscuro td {
+    background-color: #1e1e1e !important;
+    border-color: #333333 !important;
+}
+
+body.oscuro h1,
+body.oscuro h2,
+body.oscuro h3,
+body.oscuro p,
+body.oscuro span,
+body.oscuro a,
+body.oscuro li,
+body.oscuro label,
+body.oscuro th,
+body.oscuro td {
+    color: #f0f0f0 !important;
+}
+
+body.oscuro .proyecto-card h3,
+body.oscuro .proyecto-card p,
+body.oscuro .proyecto-card span,
+body.oscuro .proyecto-card a {
+    color: #f0f0f0 !important;
+}
+body.oscuro .proyecto-card,
+body.oscuro .card,
+body.oscuro article {
+    background-color: #1e1e1e !important;
+    border-color: #333333 !important;
+}
+
+body.oscuro .proyecto-card *,
+body.oscuro .card *,
+body.oscuro article * {
+    color: #f0f0f0 !important;
+}
+body.oscuro input,
+body.oscuro textarea,
+body.oscuro select {
+    background-color: #2a2a2a !important;
+    color: #f0f0f0 !important;
+    border-color: #444444 !important;
 }
