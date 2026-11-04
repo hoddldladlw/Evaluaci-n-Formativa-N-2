@@ -22,7 +22,7 @@ body {
     font-weight: bold;
     transition: color 0.3s ease;
 }
-.menu-fijo a    :hover {
+.menu-fijo a:hover {
     color: #1f7ba3;
 }
 .encabezado {
